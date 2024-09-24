@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+}
+.preNavbar {
+  background-color: #f2633b;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: red;
+}
+.nav-items {
+  display: flex;
+  column-gap: 25px;
+  background-color: red;
+  flex-direction: row;
+  /* flex-direction: column-reverse; */
+}
+.icons {
+  display: flex;
+  gap: 20px;
+  background-color: red;
+}
+.boxes-1 {
+  background-color: #f2633b;
+  height: 100px;
+  width: 100px;
+}
+
+.boxes-2 {
+  background-color: #5d3bf2;
+  height: 100px;
+  width: 100px;
+}
+.boxes-3 {
+  background-color: #f23bb2;
+  height: 100px;
+  width: 100px;
+}
+.boxes-4 {
+  background-color: #3bf244;
+  height: 100px;
+  width: 100px;
+}
+.g-parent{
+    margin: 30px;
+    display: grid;
+    /* grid-template-rows: 300px 200px 500px; */
+    gap: 50px;
+}
+/* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  */
