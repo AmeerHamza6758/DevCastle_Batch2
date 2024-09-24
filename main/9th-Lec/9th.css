@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(220, 222, 223);
+    margin: 0px;
+}       
+
+.myName{
+    color: red;
+    font-size: 20px;
+}
+#aboutMe{
+    color: purple;
+}
+/* h1{
+    color: green;
+    font-size: 30px;
+
+}
+h2{
+    color: orange;
+} */
+.heading{
+    width: 100%;
+    height: auto;
+    background-color: azure;
+}
