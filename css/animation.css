@@ -1,0 +1,74 @@
+.container {
+  width: 400px;
+  height: 60px;
+  padding: 32px;
+  text-align: center;
+  background-color: rgba(255, 123, 0, 0.918);
+  position: relative;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  /* animation-name: xyz; */
+}
+
+@keyframes xyz {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.p-class {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.p-class:hover {
+  color: red;
+}
+.p-class:active {
+  color: rgb(0, 255, 153);
+}
+/* .p-class:visited {
+  color: orange;
+} */
+.text-class::first-letter {
+  color: red;
+  font-size: 30px;
+  font-weight: 700;
+}
+.p-elements {
+  color: orange;
+  font-size: 15px;
+}
+.p-elements::after {
+    content: 'hello';
+    font-size: 10px;
+    color: red;
+}
+.p-elements::before {
+    content: 'H';
+    font-size: 30px;
+    color: orange;
+}
